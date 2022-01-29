@@ -1,18 +1,18 @@
 ## Strict
 
-### https://md-sajidahmed.github.io/PSD-to-HTML/strict/
+#### https://md-sajidahmed.github.io/PSD-to-HTML/strict/
 
 
 ## Axit
 
-### https://md-sajidahmed.github.io/PSD-to-HTML/axit/
+#### https://md-sajidahmed.github.io/PSD-to-HTML/axit/
 
 
 ## Lucid
 
-### https://md-sajidahmed.github.io/PSD-to-HTML/lucid/
+#### https://md-sajidahmed.github.io/PSD-to-HTML/lucid/
 
 
 ## Minimo
 
-### https://md-sajidahmed.github.io/PSD-to-HTML/minimo/
+#### https://md-sajidahmed.github.io/PSD-to-HTML/minimo/
