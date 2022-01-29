@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	/* font-family: 'Quicksand', sans-serif; */
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nopadding{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	padding: 0;
+}
+
+/* Header section CSS */
+.header-section{
+	background: url(../img/banner.png) no-repeat center;
+	background-size: cover;
+	padding-top: 20px;
+}
+
+/* Logo CSS */
+.header-section .bg-light{
+	background: transparent !important;
+	
+}
+.logo{
+	margin-right: 3px;
+}
+
+/* Navigation menu CSS */
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #fffefe;
+	background: url(../img/active-menu.png) center bottom no-repeat;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    background: url(../img/active-menu.png) center bottom no-repeat;
+    color: #008ed6;
+}
+
+/* Header contents CSS */
+.content{
+	padding-top: 120px;
+	padding-bottom: 125px;
+}
+.header-section h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	margin-bottom: 17px;
+}
+
+.header-section h1{
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 510;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+	line-height: 45px;
+}
+
+.header-section p{
+	color: #999999;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 90px;
+}
+
+.download-btn{
+	margin-right: 10px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	color: #ffffff;
+	background: transparent;
+	border-style: none;
+	border: 1px solid #4b4b50;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: 0.3s ease-in-out;
+}
+
+.download-btn:hover{
+	background: #008ed6;
+}
+
+.feature-btn{
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	color: #ffffff;
+	background: transparent;
+	border-style: none;
+	border: 1px solid #4b4b50;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: 0.3s ease-in-out;
+}
+
+.feature-btn:hover{
+	background: #008ed6;
+}
+
+
+/* Feature section CSS */
+.feature{
+	padding: 80px 0 64px;
+}
+
+.feature h6{
+	color: #008ed6;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 630;
+	letter-spacing: 1px;
+}
+
+.feature h2{
+	color: #1a1a1a;
+	text-align: center;
+	font-size: 33px;
+	font-weight: 501;
+	margin: 9px 0 30px;
+}
+
+.feature-line{
+	display: block;
+	margin: 0 auto;
+}
+
+.feature-item{
+	margin-top: 80px
+}
+
+.feature-icon .fa{
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	font-size: 35px;
+	border-radius: 100%;
+	border: 1px solid #e1e1e1;
+	color: #008ed6;
+	display: block;
+	margin: 0 auto;
+}
+
+.feature-icon .fa-desktop{
+	font-size: 30px;
+	line-height: 80px;
+}
+
+.feature-icon .fa-mobile{
+	font-size: 40px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------
+------------------------------------------------CSS for another process--------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+
+.feature-icon .fa{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 100%;
+	border: 1px solid #e1e1e1;
+	color: #008ed6;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+-------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------*/
+
+.feature-item h3{
+	text-align: center;
+	font-size: 22px;
+	color: #1a1a1a;
+	margin: 25px 0 10px;
+}
+
+.feature-item p{
+	text-align: center;
+	font-size: 15px;
+	color: #999999;
+}
+
+
+/* About long CSS */
+.about-long{
+	border-top: 1px solid #ededed;
+	padding: 80px 0;
+}
+.device{
+	display: block;
+	margin-left: 75px;
+}
+
+.about-long-content{
+	margin-top: 65px;
+	margin-left: 75px;
+}
+
+.about-long-content h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 630;
+	letter-spacing: 1px;
+	margin-left: 2px;
+}
+
+.about-long-content h2{
+	color: #1a1a1a;
+	font-size: 33px;
+	font-weight: 501;
+	margin: 9px 0 15px;
+}
+
+.about-long-content p{
+	margin: 16px 0 20px 2px;
+	font-size: 15px;
+	color: #999999;
+}
+
+.about-list ul li{
+	line-height: 30px;
+	margin-left: 2px;
+	font-size: 15px;
+	color: #1b1b1b;
+}
+
+.cup{
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.mouse{
+	margin-right: 12px;
+	margin-left: 3px;
+}
+
+.energy{
+	margin-right: 10px;
+	margin-left: 4px;
+}
+
+.speedometer{
+	margin-right: 9px;
+	margin-left: 2px;
+}
+
+/* About line CSS */
+.about-line{
+	margin-left: 2px;
+}
+
+
+/* About short CSS */
+.about-short{
+	padding: 80px 0 60px;
+	background: #f2f2f2;
+}
+
+.about-short-content{
+	margin-top: 90px;
+}
+
+.about-short-content h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 630;
+	letter-spacing: 1px;
+	margin-left: 2px;
+}
+
+.about-short-content h2{
+	color: #1a1a1a;
+	font-size: 33px;
+	font-weight: 501;
+	margin: 9px 0 15px;
+}
+.about-short-content p{
+	margin: 16px 0 0 2px;
+	font-size: 15px;
+	color: #999999;
+}
+
+
+/* Testimonial section CSS */
+.testimonial{
+	background: url(../img/warstwa-8.png) no-repeat center;
+	background-size: cover;
+	padding: 80px 0;
+}
+
+.testimonial h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 630;
+	letter-spacing: 1px;
+	margin-left: 2px;
+	text-align: center;
+}
+
+.testimonial h2{
+	color: #ffffff;
+	font-size: 33px;
+	font-weight: 501;
+	margin: 9px 0 28px;
+	text-align: center;
+}
+
+.testimonial .testimonial-line{
+	display: block;
+	margin: 0 auto;
+}
+
+.item{
+	padding: 85px 0 75px 40px;
+}
+
+.owl-carousel .item h4{
+	color: #ffffff;
+	font-weight: 399;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.owl-carousel .item .col-md-10{
+	margin-top: 5px;
+	color: #ffffff;
+}
+
+
+/* Download section CSS */
+.donwload{
+	padding: 50px 0 34px;
+	background: #15141a;
+}
+
+.donwload p{
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.donwload p span{
+	font-weight: 300;
+}
+
+.donwload button{
+	margin-left: 10px;
+}
+
+.donwload .download-btn{
+	margin-left: 10px;
+}
+
+
+/* Priceing table section CSS */
+.table{
+	padding: 80px 0;
+}
+
+.table-content h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 630;
+	letter-spacing: 1px;
+	margin-left: 2px;
+	text-align: center;
+}
+
+.table-content h2{
+	color: #1a1a1a;
+	font-size: 33px;
+	font-weight: 501;
+	margin: 9px 0 28px;
+	text-align: center;
+}
+
+.table-content .table-content-line{
+	display: block;
+	margin: 0 auto;
+}
+
+.pricing-table{
+	border: 1px solid #e0e0e0;
+	margin-top: 75px;
+	transition: 0.5s ease-in-out;
+}
+
+.table-heading{
+	border-bottom: 1px solid #e0e0e0;
+	padding: 20px 20px 12px;
+}
+
+.table-heading h3{
+	font-size: 22px;
+	font-weight: 700;
+	color: #1a1a1a;
+	transition: 0.5s ease-in-out;
+}
+
+.table-pricing{
+	border-bottom: 1px solid #e0e0e0;
+	padding: 20px 20px 12px;
+	transition: 0.5s ease-in-out;
+}
+
+.table-pricing h2{
+	position: relative;
+	font-size: 60px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.5s ease-in-out;
+}
+
+.table-pricing p{
+	color: #1a1a1a;
+	transition: 0.5s ease-in-out;
+}
+
+.table-pricing .free::before{
+	content: "$";
+	position: absolute;
+	top: 12px;
+    left: 78px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.5s ease-in-out;
+}
+
+.table-pricing .personal::before{
+	content: "$";
+	position: absolute;
+	top: 12px;
+    left: 62px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.5s ease-in-out;
+}
+
+.table-pricing .business::before{
+	content: "$";
+	position: absolute;
+	top: 12px;
+    left: 62px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.5s ease-in-out;
+}
+
+.table-pricing .ultimate::before{
+	content: "$";
+	position: absolute;
+	top: 12px;
+    left: 62px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.5s ease-in-out;
+}
+
+.pricing-details{
+	padding: 20px 20px 25px;
+}
+
+.pricing-details p{
+	color: #999999;
+	margin-bottom: 20px;
+}
+
+.pricing-details p span{
+	color: #008ed6;
+}
+
+.pricing-details .btn-pricing{
+	border: 1px solid #e0e0e0;
+	padding: 10px 20px;
+	font-size: 13px;
+	color: #008ed6;
+	font-weight: 600;
+	transition: 0.5s ease-in-out;
+}
+
+.pricing-table:hover{
+	transform: scale(1.1, 1.1);
+}
+
+.pricing-table:hover .table-heading h3{
+	color: #008ed6;
+}
+
+.pricing-table:hover .table-pricing{
+	background: #008ed6;
+	
+}
+
+.pricing-table:hover .table-pricing h2, .table-pricing p{
+	color: #ffffff;
+}
+
+.pricing-table:hover .table-pricing h2::before{
+	color: #ffffff;
+}
+
+.pricing-table:hover .pricing-details .btn-pricing{
+	border: 1px solid #008ed6;
+	color: #ffffff;
+	background: #008ed6;
+}
+
+
+/* Contact section CSS */
+.contact-plus-map{
+	background: #ededed;
+	padding: 80px 0 0;
+}
+
+.contact{
+	margin-bottom: -75px;
+	position: relative;
+	z-index: 1;
+}
+
+.contact-content{
+	margin-bottom: 40px;
+}
+
+.contact-content h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 630;
+	letter-spacing: 1px;
+	margin-left: 2px;
+}
+
+.contact-content h2{
+	color: #1a1a1a;
+	font-size: 33px;
+	font-weight: 501;
+	margin: 9px 0 15px;
+}
+
+.contact-icon .fa{
+	text-align: center;
+	font-size: 30px;
+	color: #008ed6;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.contact-icon p{
+	color: #999999;
+	text-align: center;
+}
+
+.contact-form{
+	background: #15141a;
+	padding: 60px 30px 50px;
+	margin-top: 50px;
+}
+
+.contact-form .btn-contact{
+	float: right;
+	background: #008ed6;
+	padding: 13px 25px;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 600;
+	border-radius: 3px;
+}
+
+.contact-form .from-field{
+	background: transparent;
+	border: 1px solid #999999;
+	font-size: 13px;
+	font-weight: 600;
+	height: 45px;
+	border-radius: 3px;
+}
+
+.contact-form .text-field{
+	background: transparent;
+	font-size: 13px;
+	font-weight: 600;
+	border: 1px solid #999999;
+	padding-top: 5px;
+	border-radius: 3px;
+}
+
+
+/* Footer section CSS */
+footer{
+	padding: 40px 0 26px;
+	background: #15141a;
+}
+
+.footer-media ul{
+	text-align: center;
+	letter-spacing: 13px;
+	cursor: pointer;
+}
+
+.footer-media ul li{
+	list-style: none;
+	display: inline;
+}
+
+.footer-media ul li .fa{
+	color: #444348;
+	font-size: 17px;
+	transition: 0.3s ease-in-out;
+}
+
+.footer-media ul li .fa:hover{
+	color: #008ed6;
+	transform: scale(1.25, 1.25);
+}
+
+.footer-content{
+	margin-top: 18px;
+}
+
+.footer-content p{
+	text-align: center;
+	font-size: 13px;
+	color: #444348;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+

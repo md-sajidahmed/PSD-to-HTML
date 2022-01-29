@@ -1,0 +1,383 @@
+/* Google fonts --- poppins & lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+
+section{
+    width: 100%;
+    float: left;
+}
+
+p{
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+/* Header section CSS */
+header{
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+    padding: 20px 0;
+}
+
+/* Banner section CSS */
+.banner{
+    background: url(../img/banner_image.png) no-repeat center;
+    background-size: cover;
+    padding: 150px 0 75px;
+}
+
+.banner h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.banner-line{
+    width: 50%;
+    height: 2px;
+    background-color: #15A4FA;
+    margin: 0 auto;
+}
+
+.banner p{
+    text-align: center;
+    color: white;
+    margin: 20px 0 60px;
+}
+
+.btn-banner{
+    border: 1px solid #15A4FA;
+    background: transparent;
+    padding: 8px 17px;
+    display: block;
+    margin: 100px auto;
+    color: white;
+}
+
+.btn-banner:hover{
+    cursor: pointer;
+    background-color: #15A4FA;
+}
+
+.banner .fa-angle-down{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* BG section CSS */
+.BG{
+    background-color: #f6f9f9;
+    padding: 75px 0; 
+}
+
+.BG h2{
+    text-align: center;
+    color: #2d3950;
+}
+
+.BG p{
+    text-align: center;
+    color: #999999;
+    margin-top: 20px;
+}
+
+/* feature section CSS */
+.feature{
+    padding: 75px 0; 
+}
+
+.feature img{
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.feature h3{
+    text-align: center;
+    margin: 25px 0 20px;
+    color: #2d3950;
+}
+
+.feature p{
+    text-align: center;
+    color: #999999;
+}
+
+/* portfolio section css */
+.portfolio{
+    background-color: #f6f9f9;
+    padding: 75px 0; 
+}
+
+.portfolio h2{
+    text-align: center;
+    color: #2d3950;
+}
+
+.portfolio p{
+    text-align: center;
+    color: #999999;
+    margin-top: 20px;
+}
+
+.portfolio-row{
+    margin-top: 50px;
+}
+
+.portfolio-item{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.portfolio-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(43, 172, 250, 0);
+    transition: 0.5s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.portfolio-hover ul{
+    /* margin-left: 100px; */
+    text-align: center;
+}
+
+.portfolio-hover ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 5px;
+}
+
+.fa-link, .fa-search-plus{
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.portfolio-item:hover .portfolio-hover{
+    background: rgba(43, 172, 250, 0.8);
+    transform: translateX(0);
+}
+
+/* Contact section CSS */
+.contact{
+    background: url(../img/contact-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 75px 0; 
+}
+
+.contact h2{
+    text-align: center;
+    color: white;
+}
+
+.contact p{
+    text-align: center;
+    color: #999999;
+    margin-top: 20px;
+}
+
+.contact-form{
+    width: 450px;
+    margin: 50px auto 0;
+}
+
+.my-form-group{
+    margin-bottom: 15px;
+}
+
+.my-form-control{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #999999;
+    padding: 0 10px;
+    background-color: transparent;
+    font-size: 12px;
+    color: #999999;
+    border-radius: 3px;
+}
+
+.my-form-control-area{
+    width: 100%;
+    border: 1px solid #999999;
+    padding: 10px 10px 0;
+    background-color: transparent;
+    font-size: 12px;
+    color: #999999;
+    border-radius: 3px;
+}
+
+.my-form-group label{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+
+.my-form-group label{
+    font-size: 14px;
+}
+
+/* -----------------------------------------------Custom Checkbox CSS----------------------------------------------- */
+
+ /* Custom checkbox */
+.custom-checkbox{
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: -4px;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+    top: 2px;
+    left: 5px;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.btn-contact{
+    float: right;
+    border: 1px solid #15A4FA;
+    background: transparent;
+    padding: 8px 30px;
+    display: block;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.btn-contact:hover{
+    cursor: pointer;
+    background-color: #15A4FA;
+}
+
+/* Footer section CSS */
+footer{
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+    padding: 20px 0 15px;
+}
+
+footer p{
+    color: #999999;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.footer-media{
+    float: right;
+    margin-top: 5px;
+}
+
+.footer-media ul li{
+    list-style: none;
+    display: inline;
+}
+
+.footer-media ul li .fa{
+    color: white;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: #15A4FA;
+    margin-left: 5px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-media ul li .fa:hover{
+    transform: scale(1.3, 1.3);
+}

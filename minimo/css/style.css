@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;577;600;700;800;900&family=Playfair+Display:wght@400;500;600;669;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+/* Global CSS */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Playfair Display', serif;
+}
+
+h6{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	color: #b4ad9e;
+	font-weight: normal;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.active{
+	color: #000000;
+}
+
+.nopadding{
+	padding: 0;
+	margin: 0;
+}
+
+.img-fluid{
+	width: 100%;
+}
+
+.custom{
+	margin: 100px 100px 0;
+}
+
+
+/* Header section CSS */
+header{
+	padding: 50px 0 60px;
+	background: #ffffff;
+}
+
+/* Header logo CSS */
+header img{
+	width: 120px;
+}
+
+/* Header navigation menu CSS */
+header nav{
+	float: right;
+}
+
+header nav ul li{
+	display: inline;
+	list-style: none;
+	margin-left: 50px;
+	font-size: 14px;
+}
+
+header ul li a{
+	color: #626262;
+}
+
+header ul li a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+
+/* Homepage section CSS */
+
+/* First post CSS*/
+.banner{
+	width: 100%;
+}
+
+h1{
+	color: #626262;
+	font-size: 30px;
+	margin: 25px 0 35px;
+}
+
+p{
+	color: #7d7d7d;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.comment{
+	margin-top: 40px;
+	width: 100%;
+	border-style: none;
+}
+
+textarea::placeholder{
+ 	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+/* First, Second & Third rows CSS */
+.post-1{
+	width: 430px;
+}
+
+.left{
+	margin-left: 25px;
+}
+
+.caption{
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+
+/* Newsletter section CSS */
+.newsletter{
+	margin: 100px 0 135px;
+	padding: 35px 0 70px;
+	background: #f0f0f0;
+	text-align: center;
+}
+
+.newsletter h1{
+	margin-bottom: 60px;
+}
+
+.newsletter input{
+	background: transparent;
+	border-style: none;
+	width: 325px;
+	font-size: 13px;
+	color: #7d7d7d;
+}
+.line{
+	height: 1px;
+	background: #000000;
+	width: 370px;
+	margin: 3px auto 0;
+}
+
+.send-icon{
+	width: 25px;
+}
+
+
+/* Load more section CSS */
+.load-more{
+	display: block;
+	margin: 120px auto 136px;
+	padding: 15px 30px;
+	color: #626262;
+	background: transparent;
+	border: 1px solid #626262;
+}
+
+.load-more:hover{
+	background: #f0f0f0;
+}
+
+
+/* Footer section CSS */
+footer{
+	padding: 10px 0;
+	background: #f0f0f0;
+}
+
+footer p{
+	margin-top: 15px;
+	color: #000000;
+}
+
+footer ul{
+	float: right;
+	margin-top: 15px;
+}
+
+footer ul li{
+	display: inline;
+	margin-left: 15px;
+}
+
+footer ul li p{
+	display: inline;
+	color: #000000;
+	margin-right: 5px;
+}
+
+footer ul li a{
+	color: #626262;
+	font-size: 13px;
+}
+
+footer ul li a:hover{
+	color: #626262;
+}
+
